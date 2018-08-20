@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7172B0BB212AEB53003E5FE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172B0BA212AEB53003E5FE9 /* AppDelegate.m */; };
+		7172B0BE212AEB53003E5FE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172B0BD212AEB53003E5FE9 /* ViewController.m */; };
+		7172B0C1212AEB53003E5FE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0BF212AEB53003E5FE9 /* Main.storyboard */; };
+		7172B0C3212AEB53003E5FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0C2212AEB53003E5FE9 /* Assets.xcassets */; };
+		7172B0C6212AEB53003E5FE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0C4212AEB53003E5FE9 /* LaunchScreen.storyboard */; };
+		7172B0C9212AEB53003E5FE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172B0C8212AEB53003E5FE9 /* main.m */; };
+		7172B0D5212AEBA0003E5FE9 /* DevelopmentExportOptionsPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0D0212AEBA0003E5FE9 /* DevelopmentExportOptionsPlist.plist */; };
+		7172B0D6212AEBA0003E5FE9 /* EnterpriseExportOptionsPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0D1212AEBA0003E5FE9 /* EnterpriseExportOptionsPlist.plist */; };
+		7172B0D7212AEBA0003E5FE9 /* AppStoreExportOptionsPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0D2212AEBA0003E5FE9 /* AppStoreExportOptionsPlist.plist */; };
+		7172B0D8212AEBA0003E5FE9 /* AdHocExportOptionsPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0D3212AEBA0003E5FE9 /* AdHocExportOptionsPlist.plist */; };
+		7172B0D9212AEBA0003E5FE9 /* autopacking.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0D4212AEBA0003E5FE9 /* autopacking.sh */; };
+		7172B0E0212AEBE5003E5FE9 /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0DC212AEBE5003E5FE9 /* confuse.sh */; };
+		7172B0E1212AEBE5003E5FE9 /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0DD212AEBE5003E5FE9 /* func.list */; };
+		7172B0E2212AEBE5003E5FE9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0DE212AEBE5003E5FE9 /* README.md */; };
+		7172B0E3212AEBE5003E5FE9 /* symbols in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0DF212AEBE5003E5FE9 /* symbols */; };
+		7172B109212AEDB9003E5FE9 /* RenameClasses.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0E7212AEDB9003E5FE9 /* RenameClasses.sh */; };
+		7172B10A212AEDB9003E5FE9 /* EnvCheckUtil.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0E8212AEDB9003E5FE9 /* EnvCheckUtil.sh */; };
+		7172B10B212AEDB9003E5FE9 /* injectedContentShell.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0E9212AEDB9003E5FE9 /* injectedContentShell.sh */; };
+		7172B112212AEDB9003E5FE9 /* main.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F1212AEDB9003E5FE9 /* main.sh */; };
+		7172B113212AEDB9003E5FE9 /* discardallchanges.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F2212AEDB9003E5FE9 /* discardallchanges.sh */; };
+		7172B114212AEDB9003E5FE9 /* RenameProperty.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F3212AEDB9003E5FE9 /* RenameProperty.sh */; };
+		7172B115212AEDB9003E5FE9 /* RenameDir.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F4212AEDB9003E5FE9 /* RenameDir.sh */; };
+		7172B116212AEDB9003E5FE9 /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F5212AEDB9003E5FE9 /* ReadMe.md */; };
+		7172B117212AEDB9003E5FE9 /* GetAndStoreProperties.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F6212AEDB9003E5FE9 /* GetAndStoreProperties.sh */; };
+		7172B118212AEDB9003E5FE9 /* StringUtil.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F7212AEDB9003E5FE9 /* StringUtil.sh */; };
+		7172B119212AEDB9003E5FE9 /* RenameFunction.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0F8212AEDB9003E5FE9 /* RenameFunction.sh */; };
+		7172B11A212AEDB9003E5FE9 /* BlackListFunctionConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0FA212AEDB9003E5FE9 /* BlackListFunctionConfig.cfg */; };
+		7172B11B212AEDB9003E5FE9 /* TrashClass.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0FB212AEDB9003E5FE9 /* TrashClass.cfg */; };
+		7172B11C212AEDB9003E5FE9 /* DefaultFunctionsBlackListConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0FC212AEDB9003E5FE9 /* DefaultFunctionsBlackListConfig.cfg */; };
+		7172B11D212AEDB9003E5FE9 /* RenameFunctions.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0FD212AEDB9003E5FE9 /* RenameFunctions.cfg */; };
+		7172B11E212AEDB9003E5FE9 /* TmpCustomBlackListPropertiesConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0FE212AEDB9003E5FE9 /* TmpCustomBlackListPropertiesConfig.cfg */; };
+		7172B11F212AEDB9003E5FE9 /* injectedContentConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B0FF212AEDB9003E5FE9 /* injectedContentConfig.cfg */; };
+		7172B120212AEDB9003E5FE9 /* CustomPropertiesBlackListConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B100212AEDB9003E5FE9 /* CustomPropertiesBlackListConfig.cfg */; };
+		7172B121212AEDB9003E5FE9 /* RenameProperties.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B101212AEDB9003E5FE9 /* RenameProperties.cfg */; };
+		7172B122212AEDB9003E5FE9 /* DefaultPropertiesBlackListConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B102212AEDB9003E5FE9 /* DefaultPropertiesBlackListConfig.cfg */; };
+		7172B123212AEDB9003E5FE9 /* DefaultClassesBlackListConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B103212AEDB9003E5FE9 /* DefaultClassesBlackListConfig.cfg */; };
+		7172B124212AEDB9003E5FE9 /* RenameClasses.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B104212AEDB9003E5FE9 /* RenameClasses.cfg */; };
+		7172B125212AEDB9003E5FE9 /* TmpCustomPropertiesBlackListConfig.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 7172B105212AEDB9003E5FE9 /* TmpCustomPropertiesBlackListConfig.cfg */; };
+		7172B126212AEDB9003E5FE9 /* DeleteTrashClasses.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B106212AEDB9003E5FE9 /* DeleteTrashClasses.sh */; };
+		7172B127212AEDB9003E5FE9 /* GetAndStoreClasses.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B107212AEDB9003E5FE9 /* GetAndStoreClasses.sh */; };
+		7172B128212AEDB9003E5FE9 /* FileUtil.sh in Resources */ = {isa = PBXBuildFile; fileRef = 7172B108212AEDB9003E5FE9 /* FileUtil.sh */; };
+		7172B132212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172B130212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.m */; };
+		7172B133212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7172B131212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.xib */; };
+		7172B13A212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172B138212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.m */; };
+		7172B13B212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7172B139212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.xib */; };
+		7172B13E212AF30A003E5FE9 /* rslJiuClassViewfcBaOa.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172B13D212AF30A003E5FE9 /* rslJiuClassViewfcBaOa.m */; };
+		7172B140212AF4C4003E5FE9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7172B13F212AF4C4003E5FE9 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7172B0B6212AEB53003E5FE9 /* iOSShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7172B0B9212AEB53003E5FE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7172B0BA212AEB53003E5FE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7172B0BC212AEB53003E5FE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7172B0BD212AEB53003E5FE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7172B0C0212AEB53003E5FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7172B0C2212AEB53003E5FE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7172B0C5212AEB53003E5FE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7172B0C7212AEB53003E5FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7172B0C8212AEB53003E5FE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7172B0D0212AEBA0003E5FE9 /* DevelopmentExportOptionsPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DevelopmentExportOptionsPlist.plist; sourceTree = "<group>"; };
+		7172B0D1212AEBA0003E5FE9 /* EnterpriseExportOptionsPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EnterpriseExportOptionsPlist.plist; sourceTree = "<group>"; };
+		7172B0D2212AEBA0003E5FE9 /* AppStoreExportOptionsPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppStoreExportOptionsPlist.plist; sourceTree = "<group>"; };
+		7172B0D3212AEBA0003E5FE9 /* AdHocExportOptionsPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdHocExportOptionsPlist.plist; sourceTree = "<group>"; };
+		7172B0D4212AEBA0003E5FE9 /* autopacking.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = autopacking.sh; sourceTree = "<group>"; };
+		7172B0DB212AEBE5003E5FE9 /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+		7172B0DC212AEBE5003E5FE9 /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		7172B0DD212AEBE5003E5FE9 /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		7172B0DE212AEBE5003E5FE9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7172B0DF212AEBE5003E5FE9 /* symbols */ = {isa = PBXFileReference; lastKnownFileType = file; path = symbols; sourceTree = "<group>"; };
+		7172B0E5212AECBF003E5FE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7172B0E7212AEDB9003E5FE9 /* RenameClasses.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RenameClasses.sh; sourceTree = "<group>"; };
+		7172B0E8212AEDB9003E5FE9 /* EnvCheckUtil.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = EnvCheckUtil.sh; sourceTree = "<group>"; };
+		7172B0E9212AEDB9003E5FE9 /* injectedContentShell.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = injectedContentShell.sh; sourceTree = "<group>"; };
+		7172B0F1212AEDB9003E5FE9 /* main.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = main.sh; sourceTree = "<group>"; };
+		7172B0F2212AEDB9003E5FE9 /* discardallchanges.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = discardallchanges.sh; sourceTree = "<group>"; };
+		7172B0F3212AEDB9003E5FE9 /* RenameProperty.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RenameProperty.sh; sourceTree = "<group>"; };
+		7172B0F4212AEDB9003E5FE9 /* RenameDir.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RenameDir.sh; sourceTree = "<group>"; };
+		7172B0F5212AEDB9003E5FE9 /* ReadMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		7172B0F6212AEDB9003E5FE9 /* GetAndStoreProperties.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GetAndStoreProperties.sh; sourceTree = "<group>"; };
+		7172B0F7212AEDB9003E5FE9 /* StringUtil.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = StringUtil.sh; sourceTree = "<group>"; };
+		7172B0F8212AEDB9003E5FE9 /* RenameFunction.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RenameFunction.sh; sourceTree = "<group>"; };
+		7172B0FA212AEDB9003E5FE9 /* BlackListFunctionConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlackListFunctionConfig.cfg; sourceTree = "<group>"; };
+		7172B0FB212AEDB9003E5FE9 /* TrashClass.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TrashClass.cfg; sourceTree = "<group>"; };
+		7172B0FC212AEDB9003E5FE9 /* DefaultFunctionsBlackListConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DefaultFunctionsBlackListConfig.cfg; sourceTree = "<group>"; };
+		7172B0FD212AEDB9003E5FE9 /* RenameFunctions.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RenameFunctions.cfg; sourceTree = "<group>"; };
+		7172B0FE212AEDB9003E5FE9 /* TmpCustomBlackListPropertiesConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TmpCustomBlackListPropertiesConfig.cfg; sourceTree = "<group>"; };
+		7172B0FF212AEDB9003E5FE9 /* injectedContentConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = injectedContentConfig.cfg; sourceTree = "<group>"; };
+		7172B100212AEDB9003E5FE9 /* CustomPropertiesBlackListConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomPropertiesBlackListConfig.cfg; sourceTree = "<group>"; };
+		7172B101212AEDB9003E5FE9 /* RenameProperties.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RenameProperties.cfg; sourceTree = "<group>"; };
+		7172B102212AEDB9003E5FE9 /* DefaultPropertiesBlackListConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DefaultPropertiesBlackListConfig.cfg; sourceTree = "<group>"; };
+		7172B103212AEDB9003E5FE9 /* DefaultClassesBlackListConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DefaultClassesBlackListConfig.cfg; sourceTree = "<group>"; };
+		7172B104212AEDB9003E5FE9 /* RenameClasses.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RenameClasses.cfg; sourceTree = "<group>"; };
+		7172B105212AEDB9003E5FE9 /* TmpCustomPropertiesBlackListConfig.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TmpCustomPropertiesBlackListConfig.cfg; sourceTree = "<group>"; };
+		7172B106212AEDB9003E5FE9 /* DeleteTrashClasses.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = DeleteTrashClasses.sh; sourceTree = "<group>"; };
+		7172B107212AEDB9003E5FE9 /* GetAndStoreClasses.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = GetAndStoreClasses.sh; sourceTree = "<group>"; };
+		7172B108212AEDB9003E5FE9 /* FileUtil.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = FileUtil.sh; sourceTree = "<group>"; };
+		7172B12F212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hLVbAwClassRenameViewControlleroAPRus.h; sourceTree = "<group>"; };
+		7172B130212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hLVbAwClassRenameViewControlleroAPRus.m; sourceTree = "<group>"; };
+		7172B131212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = hLVbAwClassRenameViewControlleroAPRus.xib; sourceTree = "<group>"; };
+		7172B137212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pmHGqXClassRenameTableViewCellvjBwdT.h; sourceTree = "<group>"; };
+		7172B138212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pmHGqXClassRenameTableViewCellvjBwdT.m; sourceTree = "<group>"; };
+		7172B139212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pmHGqXClassRenameTableViewCellvjBwdT.xib; sourceTree = "<group>"; };
+		7172B13C212AF30A003E5FE9 /* rslJiuClassViewfcBaOa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rslJiuClassViewfcBaOa.h; sourceTree = "<group>"; };
+		7172B13D212AF30A003E5FE9 /* rslJiuClassViewfcBaOa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rslJiuClassViewfcBaOa.m; sourceTree = "<group>"; };
+		7172B13F212AF4C4003E5FE9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7172B0B3212AEB53003E5FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7172B0AD212AEB53003E5FE9 = {
+			isa = PBXGroup;
+			children = (
+				7172B13F212AF4C4003E5FE9 /* README.md */,
+				7172B0E6212AEDB9003E5FE9 /* injectContentShell */,
+				7172B0DA212AEBE5003E5FE9 /* CodeObfuscation */,
+				7172B0CF212AEBA0003E5FE9 /* AutoPackage */,
+				7172B0B8212AEB53003E5FE9 /* iOSShell */,
+				7172B0B7212AEB53003E5FE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7172B0B7212AEB53003E5FE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7172B0B6212AEB53003E5FE9 /* iOSShell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7172B0B8212AEB53003E5FE9 /* iOSShell */ = {
+			isa = PBXGroup;
+			children = (
+				7172B0B9212AEB53003E5FE9 /* AppDelegate.h */,
+				7172B0BA212AEB53003E5FE9 /* AppDelegate.m */,
+				7172B0BC212AEB53003E5FE9 /* ViewController.h */,
+				7172B0BD212AEB53003E5FE9 /* ViewController.m */,
+				7172B12E212AEE47003E5FE9 /* Class */,
+				7172B0E5212AECBF003E5FE9 /* PrefixHeader.pch */,
+				7172B0BF212AEB53003E5FE9 /* Main.storyboard */,
+				7172B0C2212AEB53003E5FE9 /* Assets.xcassets */,
+				7172B0C4212AEB53003E5FE9 /* LaunchScreen.storyboard */,
+				7172B0C7212AEB53003E5FE9 /* Info.plist */,
+				7172B0C8212AEB53003E5FE9 /* main.m */,
+			);
+			path = iOSShell;
+			sourceTree = "<group>";
+		};
+		7172B0CF212AEBA0003E5FE9 /* AutoPackage */ = {
+			isa = PBXGroup;
+			children = (
+				7172B0D0212AEBA0003E5FE9 /* DevelopmentExportOptionsPlist.plist */,
+				7172B0D1212AEBA0003E5FE9 /* EnterpriseExportOptionsPlist.plist */,
+				7172B0D2212AEBA0003E5FE9 /* AppStoreExportOptionsPlist.plist */,
+				7172B0D3212AEBA0003E5FE9 /* AdHocExportOptionsPlist.plist */,
+				7172B0D4212AEBA0003E5FE9 /* autopacking.sh */,
+			);
+			path = AutoPackage;
+			sourceTree = "<group>";
+		};
+		7172B0DA212AEBE5003E5FE9 /* CodeObfuscation */ = {
+			isa = PBXGroup;
+			children = (
+				7172B0DB212AEBE5003E5FE9 /* codeObfuscation.h */,
+				7172B0DC212AEBE5003E5FE9 /* confuse.sh */,
+				7172B0DD212AEBE5003E5FE9 /* func.list */,
+				7172B0DE212AEBE5003E5FE9 /* README.md */,
+				7172B0DF212AEBE5003E5FE9 /* symbols */,
+			);
+			path = CodeObfuscation;
+			sourceTree = "<group>";
+		};
+		7172B0E6212AEDB9003E5FE9 /* injectContentShell */ = {
+			isa = PBXGroup;
+			children = (
+				7172B0E7212AEDB9003E5FE9 /* RenameClasses.sh */,
+				7172B0E8212AEDB9003E5FE9 /* EnvCheckUtil.sh */,
+				7172B0E9212AEDB9003E5FE9 /* injectedContentShell.sh */,
+				7172B0F1212AEDB9003E5FE9 /* main.sh */,
+				7172B0F2212AEDB9003E5FE9 /* discardallchanges.sh */,
+				7172B0F3212AEDB9003E5FE9 /* RenameProperty.sh */,
+				7172B0F4212AEDB9003E5FE9 /* RenameDir.sh */,
+				7172B0F5212AEDB9003E5FE9 /* ReadMe.md */,
+				7172B0F6212AEDB9003E5FE9 /* GetAndStoreProperties.sh */,
+				7172B0F7212AEDB9003E5FE9 /* StringUtil.sh */,
+				7172B0F8212AEDB9003E5FE9 /* RenameFunction.sh */,
+				7172B0F9212AEDB9003E5FE9 /* configures */,
+				7172B106212AEDB9003E5FE9 /* DeleteTrashClasses.sh */,
+				7172B107212AEDB9003E5FE9 /* GetAndStoreClasses.sh */,
+				7172B108212AEDB9003E5FE9 /* FileUtil.sh */,
+			);
+			path = injectContentShell;
+			sourceTree = "<group>";
+		};
+		7172B0F9212AEDB9003E5FE9 /* configures */ = {
+			isa = PBXGroup;
+			children = (
+				7172B0FA212AEDB9003E5FE9 /* BlackListFunctionConfig.cfg */,
+				7172B0FB212AEDB9003E5FE9 /* TrashClass.cfg */,
+				7172B0FC212AEDB9003E5FE9 /* DefaultFunctionsBlackListConfig.cfg */,
+				7172B0FD212AEDB9003E5FE9 /* RenameFunctions.cfg */,
+				7172B0FE212AEDB9003E5FE9 /* TmpCustomBlackListPropertiesConfig.cfg */,
+				7172B0FF212AEDB9003E5FE9 /* injectedContentConfig.cfg */,
+				7172B100212AEDB9003E5FE9 /* CustomPropertiesBlackListConfig.cfg */,
+				7172B101212AEDB9003E5FE9 /* RenameProperties.cfg */,
+				7172B102212AEDB9003E5FE9 /* DefaultPropertiesBlackListConfig.cfg */,
+				7172B103212AEDB9003E5FE9 /* DefaultClassesBlackListConfig.cfg */,
+				7172B104212AEDB9003E5FE9 /* RenameClasses.cfg */,
+				7172B105212AEDB9003E5FE9 /* TmpCustomPropertiesBlackListConfig.cfg */,
+			);
+			path = configures;
+			sourceTree = "<group>";
+		};
+		7172B12E212AEE47003E5FE9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7172B12F212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.h */,
+				7172B130212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.m */,
+				7172B131212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.xib */,
+				7172B137212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.h */,
+				7172B138212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.m */,
+				7172B139212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.xib */,
+				7172B13C212AF30A003E5FE9 /* rslJiuClassViewfcBaOa.h */,
+				7172B13D212AF30A003E5FE9 /* rslJiuClassViewfcBaOa.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7172B0B5212AEB53003E5FE9 /* iOSShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7172B0CC212AEB53003E5FE9 /* Build configuration list for PBXNativeTarget "iOSShell" */;
+			buildPhases = (
+				7172B0B2212AEB53003E5FE9 /* Sources */,
+				7172B0B3212AEB53003E5FE9 /* Frameworks */,
+				7172B0B4212AEB53003E5FE9 /* Resources */,
+				7172B0E4212AEC8C003E5FE9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSShell;
+			productName = iOSShell;
+			productReference = 7172B0B6212AEB53003E5FE9 /* iOSShell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7172B0AE212AEB53003E5FE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Monkey;
+				TargetAttributes = {
+					7172B0B5212AEB53003E5FE9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7172B0B1212AEB53003E5FE9 /* Build configuration list for PBXProject "iOSShell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7172B0AD212AEB53003E5FE9;
+			productRefGroup = 7172B0B7212AEB53003E5FE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7172B0B5212AEB53003E5FE9 /* iOSShell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7172B0B4212AEB53003E5FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7172B0E3212AEBE5003E5FE9 /* symbols in Resources */,
+				7172B11D212AEDB9003E5FE9 /* RenameFunctions.cfg in Resources */,
+				7172B11E212AEDB9003E5FE9 /* TmpCustomBlackListPropertiesConfig.cfg in Resources */,
+				7172B0D8212AEBA0003E5FE9 /* AdHocExportOptionsPlist.plist in Resources */,
+				7172B0E1212AEBE5003E5FE9 /* func.list in Resources */,
+				7172B122212AEDB9003E5FE9 /* DefaultPropertiesBlackListConfig.cfg in Resources */,
+				7172B13B212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.xib in Resources */,
+				7172B116212AEDB9003E5FE9 /* ReadMe.md in Resources */,
+				7172B127212AEDB9003E5FE9 /* GetAndStoreClasses.sh in Resources */,
+				7172B115212AEDB9003E5FE9 /* RenameDir.sh in Resources */,
+				7172B0D7212AEBA0003E5FE9 /* AppStoreExportOptionsPlist.plist in Resources */,
+				7172B0C6212AEB53003E5FE9 /* LaunchScreen.storyboard in Resources */,
+				7172B11A212AEDB9003E5FE9 /* BlackListFunctionConfig.cfg in Resources */,
+				7172B119212AEDB9003E5FE9 /* RenameFunction.sh in Resources */,
+				7172B0C3212AEB53003E5FE9 /* Assets.xcassets in Resources */,
+				7172B0E0212AEBE5003E5FE9 /* confuse.sh in Resources */,
+				7172B0D5212AEBA0003E5FE9 /* DevelopmentExportOptionsPlist.plist in Resources */,
+				7172B117212AEDB9003E5FE9 /* GetAndStoreProperties.sh in Resources */,
+				7172B118212AEDB9003E5FE9 /* StringUtil.sh in Resources */,
+				7172B11F212AEDB9003E5FE9 /* injectedContentConfig.cfg in Resources */,
+				7172B11B212AEDB9003E5FE9 /* TrashClass.cfg in Resources */,
+				7172B0D9212AEBA0003E5FE9 /* autopacking.sh in Resources */,
+				7172B126212AEDB9003E5FE9 /* DeleteTrashClasses.sh in Resources */,
+				7172B114212AEDB9003E5FE9 /* RenameProperty.sh in Resources */,
+				7172B10B212AEDB9003E5FE9 /* injectedContentShell.sh in Resources */,
+				7172B123212AEDB9003E5FE9 /* DefaultClassesBlackListConfig.cfg in Resources */,
+				7172B10A212AEDB9003E5FE9 /* EnvCheckUtil.sh in Resources */,
+				7172B125212AEDB9003E5FE9 /* TmpCustomPropertiesBlackListConfig.cfg in Resources */,
+				7172B124212AEDB9003E5FE9 /* RenameClasses.cfg in Resources */,
+				7172B120212AEDB9003E5FE9 /* CustomPropertiesBlackListConfig.cfg in Resources */,
+				7172B113212AEDB9003E5FE9 /* discardallchanges.sh in Resources */,
+				7172B112212AEDB9003E5FE9 /* main.sh in Resources */,
+				7172B0C1212AEB53003E5FE9 /* Main.storyboard in Resources */,
+				7172B11C212AEDB9003E5FE9 /* DefaultFunctionsBlackListConfig.cfg in Resources */,
+				7172B133212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.xib in Resources */,
+				7172B109212AEDB9003E5FE9 /* RenameClasses.sh in Resources */,
+				7172B128212AEDB9003E5FE9 /* FileUtil.sh in Resources */,
+				7172B0E2212AEBE5003E5FE9 /* README.md in Resources */,
+				7172B0D6212AEBA0003E5FE9 /* EnterpriseExportOptionsPlist.plist in Resources */,
+				7172B140212AF4C4003E5FE9 /* README.md in Resources */,
+				7172B121212AEDB9003E5FE9 /* RenameProperties.cfg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7172B0E4212AEC8C003E5FE9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = $PROJECT_DIR/CodeObfuscation/confuse.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7172B0B2212AEB53003E5FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7172B0BE212AEB53003E5FE9 /* ViewController.m in Sources */,
+				7172B0C9212AEB53003E5FE9 /* main.m in Sources */,
+				7172B0BB212AEB53003E5FE9 /* AppDelegate.m in Sources */,
+				7172B13E212AF30A003E5FE9 /* rslJiuClassViewfcBaOa.m in Sources */,
+				7172B13A212AF2AD003E5FE9 /* pmHGqXClassRenameTableViewCellvjBwdT.m in Sources */,
+				7172B132212AEFF1003E5FE9 /* hLVbAwClassRenameViewControlleroAPRus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7172B0BF212AEB53003E5FE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7172B0C0212AEB53003E5FE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7172B0C4212AEB53003E5FE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7172B0C5212AEB53003E5FE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7172B0CA212AEB53003E5FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7172B0CB212AEB53003E5FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7172B0CD212AEB53003E5FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRSK6CQVCQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/iOSShell/PrefixHeader.pch;
+				INFOPLIST_FILE = iOSShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanheng.iOSShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7172B0CE212AEB53003E5FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRSK6CQVCQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = $SRCROOT/iOSShell/PrefixHeader.pch;
+				INFOPLIST_FILE = iOSShell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanheng.iOSShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7172B0B1212AEB53003E5FE9 /* Build configuration list for PBXProject "iOSShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7172B0CA212AEB53003E5FE9 /* Debug */,
+				7172B0CB212AEB53003E5FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7172B0CC212AEB53003E5FE9 /* Build configuration list for PBXNativeTarget "iOSShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7172B0CD212AEB53003E5FE9 /* Debug */,
+				7172B0CE212AEB53003E5FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7172B0AE212AEB53003E5FE9 /* Project object */;
+}
